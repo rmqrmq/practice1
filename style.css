@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1,5;
+    color: #333;
+
+    
+    background: #fff url("../vscode/img/dengi_dollary_kupiury_215193_1920x1080.jpg") no-repeat center;
+    background-size: cover;
+}
+
+
+
+.title {
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    font-weight: normal;  
+    letter-spacing: 2px;  
+    text-transform: uppercase;
+}
+
+.justify {
+    text-align: justify;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    color: #333123;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+.table {
+    width: 100%;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+}
+
+.table th {
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+    color: #003333;
+}
+
+.table td {
+    padding: 5px 10px;
+    border: 2px solid #000;
+}
+
+.table tfoot td {
+    text-align:  right;
+}
+
+.text-red {
+    display: inline-block;
+    margin: 10px;
+
+    color: crimson;
+    font-weight: 700;
+    font-style: italic;
+}
+.content {
+    margin: 10px 20px;
+}
+
+/* post */
+.post {
+    width: 700px;
+    height: 400px;
+    padding: 15px 25px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    border: 1px solid #ddd;
+    background-color: #fff;
+    background-image: url("../vscode/img/alien_PNG27.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.post-title {
+    margin: 0px;
+
+    color: #ddd;
+}
+
+/* Gradient */
+
+.gradient {
+    width: 600px;
+    height: 300px;
+
+
+    background-image: linear-gradient(#fff rgb(158, 0, 0));
+}
